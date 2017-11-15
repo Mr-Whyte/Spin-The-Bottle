@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/woodfloor">
+
+    <TextView
+        android:id="@+id/Lick_A_Ear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lick A Ear"
+        android:layout_above="@+id/Send_A_Random_Text_Blindfolded"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginBottom="31dp" />
+
+    <TextView
+        android:id="@+id/Kiss_Someones_Feet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kiss Someones Feet"
+        android:layout_alignBaseline="@+id/BreakDance"
+        android:layout_alignBottom="@+id/BreakDance"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/Run_Outside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run Outside"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_alignTop="@+id/bottle"
+        android:layout_alignLeft="@+id/Tango_With_A_Broom"
+        android:layout_alignStart="@+id/Tango_With_A_Broom"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/Take_A_Shot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:text="Take A Shot"
+        android:layout_alignBaseline="@+id/Run_Outside"
+        android:layout_alignBottom="@+id/Run_Outside"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Send_A_Random_Text_Blindfolded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:text="Send A Randon Text Blindfoled"
+        android:layout_alignBaseline="@+id/Tango_With_A_Broom"
+        android:layout_alignBottom="@+id/Tango_With_A_Broom"
+        android:layout_toLeftOf="@+id/bottle"
+        android:layout_toStartOf="@+id/bottle" />
+
+    <TextView
+        android:id="@+id/Tango_With_A_Broom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tango With A Broom"
+        android:layout_above="@+id/bottle"
+        android:layout_toRightOf="@+id/bottle"
+        android:layout_toEndOf="@+id/bottle"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="52dp" />
+
+    <TextView
+        android:id="@+id/BreakDance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:text="BreakDance"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/bottle"
+        android:layout_alignLeft="@+id/Tango_With_A_Broom"
+        android:layout_alignStart="@+id/Tango_With_A_Broom" />
+
+
+
+
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/skyy_bottle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spin Again"
+        android:layout_below="@+id/Kiss_Someones_Feet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

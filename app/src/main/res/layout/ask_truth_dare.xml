@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/Ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ask Own Questions"
+        android:layout_weight="0.32" />
+
+    <Button
+        android:id="@+id/Truth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Truth"
+        android:layout_weight="0.32" />
+
+    <Button
+        android:id="@+id/Dare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dare"
+        android:layout_weight="0.38" />
+</LinearLayout>

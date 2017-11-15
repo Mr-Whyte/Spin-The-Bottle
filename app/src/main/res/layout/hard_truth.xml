@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woodfloor"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/Have_you_ever_cheated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have you ever cheated"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:id="@+id/Who_can_you_trust_with_your_darkest_secret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:text="Who can you trust with your darkest secret"
+        android:layout_alignBaseline="@+id/What_is_your_biggest_insecurity"
+        android:layout_alignBottom="@+id/What_is_your_biggest_insecurity"
+        android:layout_toLeftOf="@+id/Spin_again"
+        android:layout_toStartOf="@+id/Spin_again" />
+
+    <TextView
+        android:id="@+id/What_is_your_biggest_insecurity"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:text="What is your biggest insecurity"
+        android:layout_above="@+id/What_do_you_hate_about_the_person_to_your_right"
+        android:layout_toRightOf="@+id/Return"
+        android:layout_toEndOf="@+id/Return"
+        android:layout_marginBottom="36dp" />
+
+    <TextView
+        android:id="@+id/What_do_you_hate_about_the_person_to_your_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="15dp"
+        android:text="What do you hate about the person to your right"
+        android:layout_alignTop="@+id/bottle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/Have_you_ever_cheated"
+        android:layout_toEndOf="@+id/Have_you_ever_cheated" />
+
+    <TextView
+        android:id="@+id/How_many_people_have_you_had_intercource_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many people have you had intercource with"
+        android:layout_marginTop="29dp"
+        android:paddingLeft="25dp"
+        android:layout_below="@+id/bottle"
+        android:layout_toLeftOf="@+id/Spin_again"
+        android:layout_toStartOf="@+id/Spin_again" />
+
+    <TextView
+        android:id="@+id/Who_can_you_tell_your_darkest_secret_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Who can you tell your darkest sercret to"
+        android:layout_alignTop="@+id/What_do_you_hate_about_the_person_to_your_right"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/Who_can_you_trust_with_your_darkest_secret"
+        android:layout_alignEnd="@+id/Who_can_you_trust_with_your_darkest_secret" />
+
+    <TextView
+        android:id="@+id/Did_you_brush_your_teeth"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:text="Did you brush your teeth"
+        android:layout_alignBottom="@+id/How_many_people_have_you_had_intercource_with"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/Spin_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:text="Spin Again"
+        android:layout_below="@+id/Did_you_brush_your_teeth"
+        android:layout_toLeftOf="@+id/Did_you_brush_your_teeth"
+        android:layout_toStartOf="@+id/Did_you_brush_your_teeth"
+        android:layout_marginTop="19dp" />
+
+
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/skyy_bottle" />
+
+
+
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

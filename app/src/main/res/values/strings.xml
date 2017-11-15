@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SpinTheBottle</string>
+    <string name="_5">5</string>
+    <string name="_3">3</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_6">6</string>
+    <string name="_9">9</string>
+    <string name="_4">4</string>
+    <string name="spin">Spin</string>
+    <string name="Spin">spin</string>
+    <string name="spin_the_bottle">Spin The Bottle</string>
+    <string name="medium">Medium</string>
+    <string name="easy">Easy</string>
+    <string name="relationship_status_change">Relationship Status Change</string>
+    <string name="shortest_relationship">Shortest_Relationship</string>
+    <string name="biggest_fear">Biggest Fear</string>
+    <string name="most_embarassing_moment">Most Embarassing Moment</string>
+    <string name="darkest_secret">Darkest Secret</string>
+    <string name="age_pubity_started">Age Pubity Started</string>
+    <string name="your_biggest_crush">Your_Biggest_Crush</string>
+    <string name="color_underwear">Color Underwear</string>
+    <string name="Return">Return</string>
+    <string name="default_bottle">default_bottle</string>
+    <string name="have_you_ever_cheated">have you ever cheated</string>
+    <string name="who_can_you_trust_with_your_darkest_secret">who can you trust with your darkest secret</string>
+    <string name="what_is_your_biggest_insecurity">what is your biggest insecurity</string>
+    <string name="what_do_you_hate_about_the_person_to_your_right">what do you hate about the person to your right</string>
+    <string name="how_many_people_have_you_had_intercource_with">How many people have you had intercource with</string>
+    <string name="who_can_you_tell_your_darkest_sercret_to">Who can you tell your darkest sercret to</string>
+    <string name="did_you_brush_your_teeth">Did you brush your teeth</string>
+</resources>

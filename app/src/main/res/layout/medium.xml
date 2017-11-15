@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/woodfloor">
+
+    <TextView
+        android:id="@+id/Order_Pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Pizza"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/Twerk_for_a_minute"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:id="@+id/Twerk_for_a_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twerk ForA Minute"
+        android:layout_marginBottom="86dp"
+        android:layout_above="@+id/Prank_Call_Someone_You_Know"
+        android:layout_alignLeft="@+id/Down_A_King"
+        android:layout_alignStart="@+id/Down_A_King" />
+
+    <TextView
+        android:id="@+id/Smell_A_Armpit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smell A Armpit"
+        android:layout_alignBaseline="@+id/Twerk_for_a_minute"
+        android:layout_alignBottom="@+id/Twerk_for_a_minute"
+        android:layout_alignRight="@+id/Take_Toilet_Selfie_Post_It"
+        android:layout_alignEnd="@+id/Take_Toilet_Selfie_Post_It"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+
+    <TextView
+        android:id="@+id/Take_Toilet_Selfie_Post_It"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Toilet Selfie Post It"
+        android:layout_above="@+id/textView"
+        android:layout_toRightOf="@+id/Order_Pizza"
+        android:layout_toEndOf="@+id/Order_Pizza" />
+
+    <TextView
+        android:id="@+id/Down_A_King"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down A King"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/bottle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <TextView
+        android:id="@+id/Prank_Call_Someone_You_Know"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prank Call Someone You Know"
+        android:layout_marginTop="11dp"
+        android:layout_alignTop="@+id/bottle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/bottle"
+        android:layout_toStartOf="@+id/bottle" />
+
+    <TextView
+        android:id="@+id/Wear_Pants_Backwards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wear Pants Backwards"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Prank_Call_Someone_You_Know" />
+
+
+
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/skyy_bottle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Down_A_King"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Spin Again" />
+
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

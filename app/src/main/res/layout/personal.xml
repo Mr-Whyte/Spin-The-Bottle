@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/woodfloor">
+
+    <TextView
+        android:id="@+id/deep_dark_secret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/darkest_secret"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/Biggest_Fear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="53dp"
+        android:text="@string/biggest_fear"
+        android:layout_below="@+id/deep_dark_secret"
+        android:layout_alignRight="@+id/Your_Biggest_Crush"
+        android:layout_alignEnd="@+id/Your_Biggest_Crush" />
+
+    <TextView
+        android:id="@+id/Most_Embarassing_Moment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/most_embarassing_moment"
+        android:layout_alignBaseline="@+id/Biggest_Fear"
+        android:layout_alignBottom="@+id/Biggest_Fear"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_toRightOf="@+id/bottle"
+        android:layout_toEndOf="@+id/bottle" />
+
+    <TextView
+        android:id="@+id/Shortest_Relationship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shortest_relationship"
+        android:layout_alignBaseline="@+id/Relationship_Status_Change"
+        android:layout_alignBottom="@+id/Relationship_Status_Change"
+        android:layout_alignRight="@+id/Most_Embarassing_Moment"
+        android:layout_alignEnd="@+id/Most_Embarassing_Moment"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+
+    <TextView
+        android:id="@+id/Relationship_Status_Change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/relationship_status_change"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/bottle"
+        android:layout_toLeftOf="@+id/deep_dark_secret"
+        android:layout_toStartOf="@+id/deep_dark_secret" />
+
+    <TextView
+        android:id="@+id/Your_Biggest_Crush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_biggest_crush"
+        android:layout_alignTop="@+id/bottle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Color_Underwear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/color_underwear"
+        android:layout_alignTop="@+id/bottle"
+        android:layout_alignRight="@+id/Age_Pubity_Started"
+        android:layout_alignEnd="@+id/Age_Pubity_Started" />
+
+    <TextView
+        android:id="@+id/Age_Pubity_Started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Most_Embarassing_Moment"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/age_pubity_started"
+        android:layout_toRightOf="@+id/Most_Embarassing_Moment" />
+
+
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/skyy_bottle"
+        android:layout_marginTop="88dp"
+        android:layout_below="@+id/Most_Embarassing_Moment"
+        android:layout_alignRight="@+id/deep_dark_secret"
+        android:layout_alignEnd="@+id/deep_dark_secret" />
+
+
+
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/Relationship_Status_Change"
+        android:layout_toEndOf="@+id/Relationship_Status_Change" />
+
+    <TextView
+        android:id="@+id/Spin_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:text="Spin Again"
+        android:layout_above="@+id/Return"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
